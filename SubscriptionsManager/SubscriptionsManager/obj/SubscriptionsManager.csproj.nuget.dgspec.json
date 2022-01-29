@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\SideProjects\\SubscriptionsTracker\\SubscriptionsManager\\SubscriptionsManager\\SubscriptionsManager.csproj": {}
+  },
+  "projects": {
+    "D:\\SideProjects\\SubscriptionsTracker\\SubscriptionsManager\\SubscriptionsManager\\SubscriptionsManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\SideProjects\\SubscriptionsTracker\\SubscriptionsManager\\SubscriptionsManager\\SubscriptionsManager.csproj",
+        "projectName": "SubscriptionsManager",
+        "projectPath": "D:\\SideProjects\\SubscriptionsTracker\\SubscriptionsManager\\SubscriptionsManager\\SubscriptionsManager.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "D:\\SideProjects\\SubscriptionsTracker\\SubscriptionsManager\\SubscriptionsManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/packages/OnSeatDomain/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.2.5, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
